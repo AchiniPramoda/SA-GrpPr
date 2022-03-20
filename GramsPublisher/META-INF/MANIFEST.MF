@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: GramsPublisher
+Bundle-SymbolicName: GramsPublisher
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: gramspublisher.PublisherActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-16
+Automatic-Module-Name: GramsPublisher
+Import-Package: org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: gramspublisher

@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MilesSubscriber
+Bundle-SymbolicName: MilesSubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: milessubscriber.SubscriberActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-16
+Automatic-Module-Name: MilesSubscriber
+Import-Package: feetpublisher,
+ milespublisher,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: milessubscriber

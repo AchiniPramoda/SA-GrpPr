@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: KilosSubscriber
+Bundle-SymbolicName: KilosSubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: kilossubscriber.SubscriberActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-16
+Automatic-Module-Name: KilosSubscriber
+Import-Package: kilospublisher,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: kilossubscriber

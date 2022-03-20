@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: FeetSubscriber
+Bundle-SymbolicName: FeetSubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: feetsubscriber.SubscriberActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-16
+Automatic-Module-Name: FeetSubscriber
+Import-Package: feetpublisher,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: feetsubscriber

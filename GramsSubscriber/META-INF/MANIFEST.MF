@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: GramsSubscriber
+Bundle-SymbolicName: GramsSubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: gramssubscriber.SubscriberActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-16
+Automatic-Module-Name: GramsSubscriber
+Import-Package: gramspublisher,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: gramssubscriber
